@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!--  link for bootstrap -->
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+	<link  type="text/javascript" href="bootstrap-3.3.7/dist/css/bootstrap.min.js">
+	<link  type="text/javascript" href="bootstrap-3.3.7/js/tests/vendor/jquery.min.js">
+
+	 <!--  link Seperate styleSheet -->
+	 <link rel="stylesheet" type="text/css" href="Projects/Hotel/style.css">
+	  <!--  link Seperate Script -->
+	  <script type="text/javascript" src="Projects/Hotel/script.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+	  <a class="navbar-brand" href="index.html">Logo</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Deals<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Category</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">FAQ</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">About us</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Contact us</a>
+	      </li>
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		 <li><a href="SignUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	       <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Create Your Business</a></li>
+
+	</ul>
+	</div>
+	</nav>
+<div class="container">
+<div class="row">
+	<div class="col-lg-9 col-md-9 col-sm-12">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+				<img class="img-responsive" src="img/pc-hotel.png" alt="" width="180" height="50">
+			</div>
+			<!-- Map image -->
+			<div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+            <br><br>
+			<img class="img-responsive" src="img/Map.png" alt="" width="250" height="80">
+			</div>
+
+		</div>
+
+		
+
+		<div class="row">
+		<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+			<br>
+			<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+		<img class="img-responsive" src="img/pc-hotel.png" alt="" width="90" height="50">
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+		<div class="row"><h5><span class="glyphicon glyphicon-file"></span>Short Description</h5></div>
+		
+        <div class="row"><h5> <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+Contact Details</h5></div>
+        
+        <div class="row"><h5> <span class="glyphicon glyphicon-th-list"></span>Categories</h5></div>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12 col-xm-12">
+		<br>
+		<div class="row">
+			<h5><span class="glyphicon glyphicon-map-marker"></span>Address Location</h5>
+		</div>
+		<div class="row"></div>
+        <div class="row"><h5><span class="glyphicon glyphicon-usd"></span>Rate</h5></div>
+        <div class="row"></div><br>
+      <button type="button" data-toggle="modal" data-target="#myModal"  class="btn btn-success">Book Now</button>
+
+        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Show Popup</h4>
+        </div>
+        <div class="modal-body"  style="width: 500px; height: 290px;"  >
+         <a href="login.html"> <button type="button" class="btn btn-primary">Login</button></a>
+          <a href="SignUp.html"><button type="button" class="btn btn-primary">Sign Up</button></a>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ewmyModal">Book Now</button>
+           <div class="modal fade" id="ewmyModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+      	<!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Show Popup</h4>
+        </div>
+        <!-- Modal Body -->
+        <div class="modal-body"  style="width: 500px; ">
+        
+        <form  style="width: 300px; height: 200px;">
+		   
+		    <div class="form-group">
+			 
+			 <input  class="form-control" type="text" placeholder="Enter Date" name="Date">
+		    </div>
+		    <div class="form-group">
+			 <br>
+			 <div class="input-group date" id="datetimepicker1">
+			 <input class="form-control"  placeholder="Enter Starting time" name="Start_time">
+			 <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+		    </div>
+		    <div class="form-group">
+			 <br>
+			 <div class="input-group date" id="datetimepicker2">
+			 <input class="form-control"  placeholder="Enter Ending time" name="End_time">
+			 <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+			</div>
+		    </div>
+		   
+		  
+		</form>
+         
+          
+        </div>
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+	</div>
+
+</div>
+		</div>
+        
+
+    </div>
+
+</div>
+
+<!-- Ads Start -->
+<div class="col-lg-3 col-md-3 col-sm-12">
+	<div class="row">
+		<h4>Ads<h4>	
+	</div>
+	<div class="row">
+		<img class="img-responsive" src="img/ad1.png" alt="" width="230px" height="100px"> 
+	</div>
+	<br><br>
+	<div class="row">
+		<img class="img-responsive" src="img/ad2.png" alt="" width="230" height="100px">
+	</div>
+	<br>
+
+</div>
+<!-- Ads End -->
+
+</div>
+</div>
+
+<footer class="container-fluid" style="padding: 70px; background-color:#2c3e50;">
+  
+</footer>
+
+
+
+</body>
+</html>
